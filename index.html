@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marathon Vandal for Calico | Deadlock skin</title>
+<meta name="description" content="Turns Calico into Vandal, the Marathon runner, with her arm cannon, Bingus the android cat, portraits and voice.">
+<meta property="og:title" content="Marathon Vandal for Calico">
+<meta property="og:description" content="Turns Calico into Vandal, the Marathon runner, with her arm cannon, Bingus the android cat, portraits and voice.">
+<meta property="og:image" content="https://vyrena.github.io/marathon-vandal-calico/assets/og.jpg">
+<meta property="og:url" content="https://vyrena.github.io/marathon-vandal-calico/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#141416">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='14' height='14' fill='%23FF2E8E' stroke='black' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>:root { --accent: #FF2E8E; --edge: #C6F01E; }</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap">
+  <span>Marathon runner skins for Deadlock</span>
+  <span><a href="https://vyrena.github.io/marathon-thief-yamato/">Thief for Yamato</a></span>
+</div></header>
+
+<div class="hero"><img src="assets/hero.webp" width="1920" height="1080" alt="Vandal from Marathon, posed as a Deadlock skin for Calico"></div>
+
+<main>
+<div class="wrap get">
+  <div>
+    <span class="tag">For Calico</span>
+    <h1>Marathon Vandal for Calico</h1>
+    <p class="lede">Turns Calico into Vandal, the Marathon runner, with her arm cannon, Bingus the android cat, portraits and voice.</p>
+  </div>
+  <div class="download">
+    <a class="btn" href="https://github.com/Vyrena/marathon-vandal-calico/releases/latest/download/Vandal_Calico.zip">Download Vandal</a>
+    <p class="meta"><span>Version 1.2</span><span>51 MB zip</span><span>Free</span></p>
+  </div>
+</div>
+
+<section class="wrap" aria-labelledby="whats-in">
+  <h2 id="whats-in">What's in it</h2>
+  <ul class="features">
+    <li>Full Vandal character model and textures</li>
+    <li>Arm cannon with its own reload animation</li>
+    <li>Bingus, an android cat, in place of Ava</li>
+    <li>Vandal hero portraits</li>
+    <li>Vandal voice lines in place of Calico&#x27;s</li>
+  </ul>
+</section>
+
+<section class="wrap" aria-labelledby="install">
+  <h2 id="install">Install in three steps</h2>
+  <ol class="steps">
+    <li>
+      <h3>Download the zip</h3>
+      <p>Click <a href="https://github.com/Vyrena/marathon-vandal-calico/releases/latest/download/Vandal_Calico.zip">Download Vandal</a>. Keep the file zipped. You don't need to open it.</p>
+    </li>
+    <li>
+      <h3>Add it to Deadlock Mod Manager</h3>
+      <p>Open Deadlock Mod Manager and click <strong>Add Local Mod</strong> in the sidebar. Drag the zip onto the drop box, type a name like "Vandal", then click <strong>Add</strong>.</p>
+      <p class="aside">No mod manager yet? It's free at <a href="https://deadlockmods.app/">deadlockmods.app</a>.</p>
+    </li>
+    <li>
+      <h3>Enable it and play</h3>
+      <p>Go to <strong>Mods Library</strong>, find Vandal and click <strong>Enable</strong>. Start the game with <strong>Launch modded</strong>.</p>
+    </li>
+  </ol>
+  <p class="note">Only one Calico skin can be on at a time. If you have another one, disable it first.</p>
+</section>
+
+<section class="wrap" aria-labelledby="help">
+  <h2 id="help">More help</h2>
+
+  <details>
+    <summary>Install without a mod manager</summary>
+    <div class="detail-body">
+      <ol>
+        <li>Unzip the download. Inside is one file: <span class="path">pak01_dir.vpk</span>.</li>
+        <li>In Steam, right-click Deadlock and choose <strong>Manage</strong>, then <strong>Browse local files</strong>.</li>
+        <li>Open <span class="path">game\citadel</span>. If there's no <span class="path">addons</span> folder, create one.</li>
+        <li>Move <span class="path">pak01_dir.vpk</span> into <span class="path">addons</span>. If a file with that name is already there, rename yours to the next free number instead: <span class="path">pak02_dir.vpk</span>, <span class="path">pak03_dir.vpk</span> and so on.</li>
+        <li>One-time setup: open <span class="path">game\citadel\gameinfo.gi</span> in Notepad, find <span class="path">SearchPaths</span>, and add the highlighted line right under <span class="path">Game_Language</span>. Save the file.
+<pre>SearchPaths
+{
+    Game_Language   citadel_*LANGUAGE*
+    <span class="add">Game            citadel/addons</span>
+    Mod             citadel
+    ...</pre>
+        </li>
+      </ol>
+      <p>Deadlock updates can reset <span class="path">gameinfo.gi</span>. If mods stop loading after a patch, add the line again. Deadlock Mod Manager does this for you automatically.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Update to a new version</summary>
+    <div class="detail-body">
+      <ol>
+        <li>Download the new zip from this page.</li>
+        <li>In Deadlock Mod Manager, open <strong>Mods Library</strong>, open Vandal and click <strong>Delete Mod</strong> to remove the old version.</li>
+        <li>Add the new zip with <strong>Add Local Mod</strong> and enable it, the same as the first install.</li>
+      </ol>
+      <p>Installed by hand? Replace your <span class="path">pakNN_dir.vpk</span> in <span class="path">addons</span> with the one from the new zip, keeping the same file name.</p>
+      <p>Mods added with Add Local Mod don't get update alerts in the mod manager, so check this page now and then.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Uninstall</summary>
+    <div class="detail-body">
+      <p>In Deadlock Mod Manager, click <strong>Disable</strong> to turn it off, or <strong>Delete Mod</strong> to remove it completely. Installed by hand? Delete the <span class="path">pakNN_dir.vpk</span> you added to <span class="path">addons</span>.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>The skin doesn't show up in game</summary>
+    <div class="detail-body">
+      <ul>
+        <li>Make sure Vandal is enabled in <strong>Mods Library</strong> and that no other Calico skin is enabled.</li>
+        <li>Close Deadlock completely and start it again with <strong>Launch modded</strong>. Mods load when the game starts.</li>
+        <li>Still nothing? In Deadlock Mod Manager, disable all mods, delete Vandal, add the zip again and enable only this mod.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details>
+    <summary>I installed it from GameBanana before</summary>
+    <div class="detail-body">
+      <p>Please replace it with the version on this page. The first version could make other players' Calicos T-pose or crash the game in matches. Delete the old one in Deadlock Mod Manager, then follow the three steps above.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Can other players see it?</summary>
+    <div class="detail-body">
+      <p>No. Mods only change your own game. You'll see every Calico as Vandal, and other players see whatever they have installed. It changes looks and sounds only, nothing about gameplay.</p>
+    </div>
+  </details>
+</section>
+
+<section class="wrap" aria-labelledby="gallery">
+  <h2 id="gallery">Gallery</h2>
+  <div class="gallery">
+    <figure><a href="assets/profile.webp"><img src="assets/profile.webp" width="1920" height="1080" loading="lazy" alt="Vandal close-up profile"></a><figcaption>Profile</figcaption></figure>
+    <figure><a href="assets/rear.webp"><img src="assets/rear.webp" width="1920" height="1080" loading="lazy" alt="Vandal seen from behind"></a><figcaption>Rear view</figcaption></figure>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="changes">
+  <h2 id="changes">Changelog</h2>
+  <div class="changes">
+    <div class="change"><div><h3>1.2</h3><time>October 14, 2026</time></div><ul><li>The arm cannon now keeps its shape in every animation, including reloading.</li><li>Fixed pieces of the arm flashing across the screen when you start or stop shooting.</li><li>The cannon is now always out. The glove from 1.0 no longer swaps in out of combat.</li></ul></div>
+    <div class="change"><div><h3>1.1</h3><time>October 13, 2026</time></div><ul><li>Fixed other players&#x27; Calicos T-posing, teleporting or crashing the game for anyone with the mod installed.</li></ul></div>
+    <div class="change"><div><h3>1.0</h3><time>October 13, 2026</time></div><ul><li>First release.</li></ul></div>
+  </div>
+</section>
+
+<section class="wrap credits" aria-labelledby="credits">
+  <h2 id="credits">Credits</h2>
+  <p>Made by <a href="https://github.com/Vyrena">Vyrena</a>. This mod was made with heavy AI assistance.</p>
+  <p>Unofficial community port. Marathon, its characters and assets belong to Bungie. Deadlock belongs to Valve. Not affiliated with or endorsed by either.</p>
+  <p>Found a problem? <a href="https://github.com/Vyrena/marathon-vandal-calico/issues">Report it on GitHub</a>.</p>
+</section>
+
+<div class="wrap more">
+  <span>Also available</span>
+  <a class="other" href="https://vyrena.github.io/marathon-thief-yamato/">Thief for Yamato</a>
+</div>
+</main>
+</body>
+</html>
