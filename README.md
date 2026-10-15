@@ -19,7 +19,8 @@ Manual install, updating and troubleshooting: https://vyrena.github.io/marathon-
 
 ## In game
 ![Hero select, Default look](assets/shot-1.webp)
-![Bingus in the hideout](assets/shot-2.webp)
+![In the hideout](assets/shot-2.webp)
+![Bingus in the hideout](assets/shot-3.webp)
 
 ## Credits
 Made by Vyrena, with heavy AI assistance. Unofficial community port. Marathon, its characters and assets belong to Bungie. Deadlock belongs to Valve. Not affiliated with or endorsed by either.
