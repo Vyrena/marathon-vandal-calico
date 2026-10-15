@@ -94,6 +94,26 @@ pre .add { color: var(--accent); font-weight: 700; }
 .change time { display: block; font-size: .88rem; color: var(--ink-soft); }
 .change ul { margin: 0; padding-left: 1.1rem; }
 
+.also { margin: .55rem 0 0; font-size: .92rem; }
+.looks { display: grid; grid-template-columns: repeat(var(--look-cols, 3), minmax(0, 1fr)); gap: 1rem; }
+.look { display: flex; flex-direction: column; min-width: 0; background: var(--paper); border: 2px solid #000; }
+.look img { display: block; width: 100%; max-width: 100%; height: auto; aspect-ratio: 4 / 5; background: var(--band); border-bottom: 2px solid #000; }
+.look-body { display: flex; flex-direction: column; gap: .5rem; flex: 1; padding: .9rem .95rem 1.1rem; }
+.look h3 { margin: 0; font-size: 1.2rem; text-wrap: balance; }
+.look p { margin: 0; color: var(--ink-soft); font-size: .9rem; line-height: 1.45; }
+.look .btn { align-self: flex-start; margin-top: auto; font-size: 1.05rem; padding: .62rem .9rem .56rem; box-shadow: 4px 4px 0 #000; }
+.look .btn:hover { box-shadow: 6px 6px 0 #000; }
+.look .meta { margin: .1rem 0 0; font-size: .85rem; }
+.gallery.faces { grid-template-columns: repeat(var(--look-cols, 3), minmax(0, 1fr)); gap: .8rem; margin-top: 1.2rem; }
+.gallery.faces img { aspect-ratio: 1 / 1; }
+.gallery.ingame { grid-template-columns: repeat(var(--shot-cols, 2), minmax(0, 1fr)); gap: .8rem; margin-bottom: 1.2rem; }
+.gallery.ingame img { aspect-ratio: 1 / 1; object-fit: cover; }
+.gallery.ingame figcaption { font-size: .85rem; }
+.gallery.faces figcaption { font-size: .82rem; }
+.cols-2 { --look-cols: 2; max-width: 760px; } .cols-3 { --look-cols: 3; } .cols-4 { --look-cols: 4; } .cols-5 { --look-cols: 5; }
+@media (max-width: 1000px) { .looks.cols-4, .looks.cols-5, .faces.cols-4, .faces.cols-5 { --look-cols: 2; } }
+@media (max-width: 760px) { .looks, .gallery.faces { --look-cols: 2; } .gallery.ingame { --shot-cols: 2 !important; } }
+
 .credits { font-size: .95rem; color: var(--ink-soft); }
 .credits p { margin: 0 0 .7rem; max-width: 72ch; }
 .credits h2 { color: var(--ink); }
@@ -109,6 +129,10 @@ pre .add { color: var(--accent); font-weight: 700; }
   .steps li:last-child { border-bottom: 0; }
   .steps li::before { font-size: 5rem; }
   .gallery { grid-template-columns: 1fr; }
+  .looks, .gallery.faces { gap: .7rem; }
+  .look-body { padding: .7rem .7rem .9rem; }
+  .look h3 { font-size: 1.05rem; }
+  .look p { font-size: .84rem; }
   .change { grid-template-columns: 1fr; gap: .2rem; }
 }
 @media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
