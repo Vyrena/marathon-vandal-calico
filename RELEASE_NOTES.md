@@ -1,7 +1,9 @@
-## Marathon Vandal for Calico 1.3
+## Marathon Vandal for Calico 1.4
 
-- New look: Null Tempest, her PlayStation promo outfit, with a blue arm cannon to match. Its sleeves swing like the Default look.
-- The Default look is the same as in 1.2.
+- Fixed the camera after Deadlock's Violet update. It froze in place or ended up inside Calico, including in cat form.
+- Both looks are otherwise the same as in 1.3.
+
+If you already have the mod, download your look again and replace the old copy.
 
 ### Pick one look
 - **Vandal_Calico.zip**: Default. Her standard Marathon outfit, with blue lips and a pink arm cannon.
@@ -17,5 +19,5 @@ Each zip is a separate mod. Enable only one.
 Full instructions: https://vyrena.github.io/marathon-vandal-calico/
 
 ### SHA-256
-- Vandal_Calico.zip: `b15da8a63364dba7660ca2d9b8e09004a571973f5b42f6b018374358b04bb18b`
-- Vandal_NullTempest_Calico.zip: `1dd40511a4b3886779d30de78be813de4f9171af4bc60f122ec31328fe62e0de`
+- Vandal_Calico.zip: `e0a5f1094b0006c68a1a4a70e166260fab6e5073463623a10c62aeba24e876e3`
+- Vandal_NullTempest_Calico.zip: `de81fd676ebb184ed745225da61044fe0b388620287c5838dfa1de7a47e3d764`
